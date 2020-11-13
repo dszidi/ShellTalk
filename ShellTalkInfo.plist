@@ -1,0 +1,11 @@
+{
+  ApplicationDescription = "Shows how to use underlying BSD System within your Objective C Code";
+  ApplicationIcon = "";
+  ApplicationName = ShellTalk;
+  ApplicationRelease = 0.1;
+  Authors = "";
+  Copyright = "Copyright (C) 2020 by dszidi";
+  CopyrightDescription = "Released under BSD license";
+  FullVersionID = 0.1;
+  URL = "";
+}
