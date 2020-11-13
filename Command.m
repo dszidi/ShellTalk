@@ -12,7 +12,6 @@
   //NSString *file; 
   NSArray *args;
   NSTask *task;
-  //NSFileHandle *fileHandle; // <-- This is a socket. You can also use NSURL w/NSURLHandle
 
   NSArray *zfsArgs = [NSArray arrayWithObjects: [NSString stringWithFormat: @"list"], nil];
   NSArray *pingArgs = [NSArray arrayWithObjects: @"-c 4", @"google.com", nil];
@@ -63,7 +62,6 @@
 - (void) taskEnded: (NSNotification *) not
 {
   NSLog(@"TaskEnded Method...");
-  //NSLog(@"%@", not);
   [[NSNotificationCenter defaultCenter] removeObserver: self];
   [fileHandle closeFile];
 
